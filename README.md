@@ -1,4 +1,4 @@
-# docker-sfdx-ci
+# docker-sfdx-cli
 
 Dockerfile to create basic image for use with SalesforceDX on Bitbucket Pipelines.
 
