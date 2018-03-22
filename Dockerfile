@@ -1,5 +1,5 @@
-# use small node image
-FROM node:alpine
+# use node image
+FROM node
 
 # install latest sfdx from npm
 RUN npm install sfdx-cli --global
