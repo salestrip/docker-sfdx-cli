@@ -1,7 +1,12 @@
 # docker-sfdx-cli
  
-Dockerfile to create basic image for use with SalesforceDX on Bitbucket Pipelines.
+Dockerfile to create basic image for use with SalesforceDX on CircleCI.
 
-Lightweight Docker image using node alpine, installs SalesforceDX CLI from NPM.
+Lightweight Docker image using node alpine.
 
-For an example of using this image see this repository: https://bitbucket.org/SalesTrip/pipelines-sample
+Includes:
+jq for shell JSON parsing
+gettext for text file processing
+ca-certificates, openssl for test result and artifact storage on CircleCI
+openssh for CircleCI SSH access
+SalesforceDX CLI from NPM
