@@ -12,3 +12,9 @@ Includes:
 - SalesforceDX CLI from NPM
 
 Image on docker hub: https://hub.docker.com/r/salestrip/sfdx-cli/
+
+[![Docker Automated build](https://img.shields.io/docker/automated/salestrip/sfdx-cli.svg?style=plastic)](https://hub.docker.com/r/salestrip/sfdx-cli/builds/)
+
+Image is automatically rebuilt on new releases of:
+- sfdx-cli (NPM package)
+- node:alpine (root image)
