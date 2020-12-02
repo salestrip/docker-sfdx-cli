@@ -9,7 +9,7 @@ Includes:
 - gettext for text file processing
 - ca-certificates, openssl for test result and artifact storage on CircleCI
 - openssh for CircleCI SSH access
-- SalesforceDX CLI from NPM **This is normally the most recent version but has been pinned to 7.70.1 due to [this issue](https://github.com/forcedotcom/cli/issues/747)**
+- SalesforceDX CLI from NPM **This is normally the most recent version but has temporarily been pinned to latest-rc due to [this issue](https://github.com/forcedotcom/cli/issues/746)**
 
 Image on docker hub: https://hub.docker.com/r/salestrip/sfdx-cli/
 
