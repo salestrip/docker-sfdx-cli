@@ -6,7 +6,7 @@ FROM node:alpine
 RUN apk add --update --no-cache git openssh ca-certificates openssl jq gettext xmlstarlet curl
 
 # install latest sfdx from npm
-RUN npm install sfdx-cli --global
+RUN npm install sfdx-cli@latest-rc --global
 RUN sfdx --version
 RUN sfdx plugins --core
 
